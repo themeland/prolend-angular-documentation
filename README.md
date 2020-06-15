@@ -295,6 +295,205 @@ By using these basic components, For example in our components directory there i
         ...... ( and other )
     ...    
 ```
+### Welcome One Page component
+`components/welcome/welcome-one/welcome-one.component.html`
+
+```html
+<section id="home" class="section welcome-area bg-inherit h-100vh overflow-hidden">
+    <div class="shapes-container">
+        <div class="bg-shape"></div>
+    </div>
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <!-- Welcome Intro Start -->
+            <div class="col-12 col-md-7">
+                <div class="welcome-intro">
+                    <span class="d-inline-block text-capitalize font-italic fw-3 mb-2">The next generation landing page</span>
+                    <h1 class="text-capitalize">Get <span class="fw-3">Prolend</span> Product landing page</h1>
+                    <p class="my-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <!-- Store Buttons -->
+                    <div class="button-group store-buttons d-flex">
+                        <a class="btn prolend-primary" href="#">Get the App</a>
+                        <a class="btn prolend-primary style-two" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <!-- Welcome Thumb -->
+                <div class="welcome-thumb thumb-animated">
+                    <img src="assets/img/welcome_mockup.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+### Blog Page component
+`components/blogs/blog-two-column/blog-two-column.component.html`
+
+```html
+<div class="blog">
+    <app-scrollup></app-scrollup>
+    <div class="main">
+        <app-header-two></app-header-two>
+        <app-breadcrumb-blog-two-column></app-breadcrumb-blog-two-column>
+        <section id="blog" class="section blog-area ptb_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <!-- Single Blog -->
+                        <div class="single-blog res-margin">
+                            <!-- Blog Thumb -->
+                            <div class="blog-thumb">
+                                <a href="#"><img src="assets/img/blog_1.jpg" alt=""></a>
+                            </div>
+                            <!-- Blog Content -->
+                            <div class="blog-content p-4">
+                                <!-- Meta Info -->
+                                <ul class="meta-info d-flex justify-content-between">
+                                    <li>By <a href="#">Anna Sword</a></li>
+                                    <li><a href="#">Feb 05, 2019</a></li>
+                                </ul>
+                                <!-- Blog Title -->
+                                <h3 class="blog-title my-3"><a href="#">How to grow up your business</a></h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                                <a href="#" class="blog-btn mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!-- Single Blog -->
+                        <div class="single-blog res-margin">
+                            <!-- Blog Thumb -->
+                            <div class="blog-thumb">
+                                <a href="#"><img src="assets/img/blog_2.jpg" alt=""></a>
+                            </div>
+                            <!-- Blog Content -->
+                            <div class="blog-content p-4">
+                                <!-- Meta Info -->
+                                <ul class="meta-info d-flex justify-content-between">
+                                    <li>By <a href="#">Jassica William</a></li>
+                                    <li><a href="#">Feb 05, 2019</a></li>
+                                </ul>
+                                <!-- Blog Title -->
+                                <h3 class="blog-title my-3"><a href="#">Planing to manage your clients?</a></h3>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor.</p>
+                                <a href="#" class="blog-btn mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!-- Single Blog -->
+                        <div class="single-blog">
+                            <!-- Blog Thumb -->
+                            <div class="blog-thumb">
+                                <a href="#"><img src="assets/img/blog_3.jpg" alt=""></a>
+                            </div>
+                            <!-- Blog Content -->
+                            <div class="blog-content p-4">
+                                <!-- Meta Info -->
+                                <ul class="meta-info d-flex justify-content-between">
+                                    <li>By <a href="#">John Doe</a></li>
+                                    <li><a href="#">Mar 05, 2019</a></li>
+                                </ul>
+                                <!-- Blog Title -->
+                                <h3 class="blog-title my-3"><a href="#">Make your successful business with Prolend</a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+                                <a href="#" class="blog-btn mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!-- Single Blog -->
+                        <div class="single-blog res-margin">
+                            <!-- Blog Thumb -->
+                            <div class="blog-thumb">
+                                <a href="#"><img src="assets/img/blog_4.jpg" alt=""></a>
+                            </div>
+                            <!-- Blog Content -->
+                            <div class="blog-content p-4">
+                                <!-- Meta Info -->
+                                <ul class="meta-info d-flex justify-content-between">
+                                    <li>By <a href="#">Anna Sword</a></li>
+                                    <li><a href="#">Feb 05, 2019</a></li>
+                                </ul>
+                                <!-- Blog Title -->
+                                <h3 class="blog-title my-3"><a href="#">How to get more clients?</a></h3>
+                                <p>Need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                                <a href="#" class="blog-btn mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!-- Single Blog -->
+                        <div class="single-blog res-margin">
+                            <!-- Blog Thumb -->
+                            <div class="blog-thumb">
+                                <a href="#"><img src="assets/img/blog_5.jpg" alt=""></a>
+                            </div>
+                            <!-- Blog Content -->
+                            <div class="blog-content p-4">
+                                <!-- Meta Info -->
+                                <ul class="meta-info d-flex justify-content-between">
+                                    <li>By <a href="#">Jassica William</a></li>
+                                    <li><a href="#">Feb 05, 2019</a></li>
+                                </ul>
+                                <!-- Blog Title -->
+                                <h3 class="blog-title my-3"><a href="#">Grow up your business successfully</a></h3>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor.</p>
+                                <a href="#" class="blog-btn mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <!-- Single Blog -->
+                        <div class="single-blog">
+                            <!-- Blog Thumb -->
+                            <div class="blog-thumb">
+                                <a href="#"><img src="assets/img/blog_6.jpg" alt=""></a>
+                            </div>
+                            <!-- Blog Content -->
+                            <div class="blog-content p-4">
+                                <!-- Meta Info -->
+                                <ul class="meta-info d-flex justify-content-between">
+                                    <li>By <a href="#">John Doe</a></li>
+                                    <li><a href="#">Mar 05, 2019</a></li>
+                                </ul>
+                                <!-- Blog Title -->
+                                <h3 class="blog-title my-3"><a href="#">Meet the business magnet of the year</a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly</p>
+                                <a href="#" class="blog-btn mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Pagination -->
+                        <ul class="pagination justify-content-center">
+                            <li class="disabled px-1">
+                                <a href="#" aria-label="Previous">
+                                    <i class="fas fa-arrow-left"></i>
+                                </a>
+                            </li>
+                            <li class="px-1"><a href="#">1</a></li>
+                            <li class="active px-1"><a href="#">2</a></li>
+                            <li class="px-1"><a href="#">3</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <app-footer-two></app-footer-two>
+    </div>
+</div>
+```
 
 ### Contact Page component
 `inner-pages/contact-page/contact-page.component.html`
@@ -323,6 +522,177 @@ By using these basic components, For example in our components directory there i
         <app-footer-one></app-footer-one>
     </div>
 </div>
+```
+
+### Editing the style CSS
+`src/assets/css/style.css`
+
+```css
+/* ************************************************************
+:: Template Name: Prolend - Product Landing Page Template
+:: Template URI: https://theme-land.com/prolend
+:: Template Author Name: theme_land
+:: Template Author URI: hridoy1272@gmail.com
+:: Version: 1.0.0
+:: Created: 14 Jun 2020
+************************************************************ 
+*
+*
+******* :: INDEX OF CSS :: *******
+:: 1.0 WEB FONTS
+:: 2.0 IMPORT ALL CSS
+:: 3.0 GLOBAL CSS
+:: 4.0 COMMON CSS
+:: 5.0 PRELOADER CSS
+:: 6.0 SCROLL TO TOP AREA CSS
+:: 7.0 HEADER AREA CSS
+:: 8.0 WELCOME AREA CSS
+    :: 8.1 WELCOME AREA HOMEPAGE-2 CSS
+    :: 8.2 WELCOME AREA HOMEPAGE-3 CSS
+    :: 8.3 WELCOME AREA HOMEPAGE-4 CSS
+    :: 8.4 WELCOME AREA HOMEPAGE-6 CSS
+:: 9.0 PROMO VIDEO AREA CSS
+:: 10.0 FEATURES AREA CSS
+:: 11.0 SERVICE AREA CSS
+:: 12.0 DISCOVER AREA CSS
+:: 13.0 PRODUCTS AREA CSS
+:: 14.0 COMPARISON AREA CSS
+:: 15.0 REVIEWS AREA CSS
+:: 16.0 FAQ AREA CSS
+:: 17.0 SUBSCRIBE AREA CSS
+:: 18.0 BLOG AREA CSS
+:: 19.0 BREADCRUMB AREA CSS
+:: 20.0 BLOG PAGE AREA CSS
+:: 21.0 BLOG PAGE DETAILS AREA CSS
+:: 22.0 CONTACT AREA CSS
+:: 23.0 FOOTER AREA CSS
+:: 24.0 ERROR AREA CSS
+:: 25.0 COMING SOON AREA CSS
+:: 26.0 PREVIEW AREA CSS
+****************************** */
+
+/* ******************************
+:: 1.0 WEB FONTS
+****************************** */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+/* ******************************
+:: 2.0 IMPORT ALL CSS
+****************************** */
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url(../font/flaticon.css);
+@import url(animate.min.css);
+@import url(aos.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+
+/* ******************************
+:: 3.0 GLOBAL CSS
+****************************** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #565656;
+}
+
+.main {
+    background: #fff;
+}
+
+section,
+.section {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+.h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+@media (min-width: 992px) {
+    .promo-text {
+        font-size: 50px;
+    }
+}
+
+h3, .h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #565656;
+    margin-bottom: 0;
+}
+
+a {
+    color: #444;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover,
+a:focus {
+    color: #F74B54;
+}
+
+a,
+a:hover,
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 ```
 
 
